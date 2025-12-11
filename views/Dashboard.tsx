@@ -155,17 +155,17 @@ const Dashboard: React.FC<DashboardProps> = ({ onSelectPrompt }) => {
           </div>
           <h1 className="text-6xl md:text-8xl lg:text-9xl font-medium tracking-tighter leading-[0.9] mb-8 text-slate-900">
             Scale Revenue.<br />
-            <span className="text-slate-400">Automate Operations.</span>
+            <span className="text-slate-400">Without Scaling Workload.</span>
           </h1>
           <div className="flex flex-col md:flex-row md:items-end justify-between gap-8 max-w-6xl">
             <p className="text-xl md:text-2xl text-slate-600 max-w-2xl leading-relaxed">
-              <span className="font-bold text-slate-900">ATN Automations</span> designs systems tailored to your specific needs. From AI receptionists to complex custom workflows, we build the engine your business runs on.
+              <span className="font-bold text-slate-900">ATN Automations</span> builds quiet, ruthless systems that answer every lead, follow up instantly, and keep your pipeline moving while you’re off the clock.
             </p>
             <div className="hidden md:block h-px flex-1 bg-slate-300 mx-8 mb-3" />
             <div className="flex flex-col items-end">
                <span className="text-xs font-mono text-slate-400 uppercase tracking-widest mb-2">Service_Menu_v2.1</span>
                <button onClick={() => setIsFormOpen(true)} className="text-sm font-bold border-b-2 border-slate-900 pb-1 hover:text-slate-600 hover:border-slate-600 transition-colors">
-                  Get a Custom Quote →
+                  Get a Custom Systems Plan →
                </button>
             </div>
           </div>
@@ -185,7 +185,7 @@ const Dashboard: React.FC<DashboardProps> = ({ onSelectPrompt }) => {
              {/* Wrapper for consistent flex height */}
              <div className="relative z-10 h-full flex flex-col">
                 {/* Pain Trigger (Top) - Enclosed box to prevent floating feel */}
-                <div className="mb-6 p-6 bg-[#F5F5F4] rounded-xl border border-[#E7E5E4] w-full">
+                <div className="p-6 bg-[#F5F5F4] rounded-xl border border-[#E7E5E4] w-full">
                     <div className="flex items-center gap-2 text-[#78716C] mb-3">
                         <AlertCircle size={14} />
                         <span className="text-xs font-bold uppercase tracking-widest">The Problem</span>
@@ -195,8 +195,11 @@ const Dashboard: React.FC<DashboardProps> = ({ onSelectPrompt }) => {
                     </h3>
                 </div>
 
-                {/* Solution Body */}
-                <div className="flex-1 flex flex-col justify-end">
+                {/* Spacer to push content down */}
+                <div className="flex-1" />
+
+                {/* Solution Body - Sticks to bottom */}
+                <div className="flex flex-col">
                     <div className="w-12 h-12 rounded-full bg-[#F5F5F4] border border-[#E7E5E4] flex items-center justify-center mb-6 text-[#57534E] group-hover:scale-110 transition-transform duration-500">
                         <Mic strokeWidth={1.5} className="w-6 h-6" />
                     </div>
@@ -207,13 +210,13 @@ const Dashboard: React.FC<DashboardProps> = ({ onSelectPrompt }) => {
                     </p>
 
                     {/* Micro Proof */}
-                    <div className="bg-[#E7E5E4]/30 rounded-lg p-3 mb-8 flex items-center gap-3">
+                    <div className="bg-[#E7E5E4]/30 rounded-lg p-3 flex items-center gap-3 mb-6">
                     <TrendingUp size={16} className="text-[#57534E]" />
                     <span className="text-xs font-bold text-[#57534E] uppercase tracking-wider">Never miss a client again</span>
                     </div>
 
                     {/* CTA */}
-                    <div className="flex items-center justify-between border-t border-[#E7E5E4] pt-4 mt-auto">
+                    <div className="flex items-center justify-between border-t border-[#E7E5E4] pt-4">
                     <span className="text-sm font-bold uppercase tracking-[0.2em] text-[#292524]">Hear a Demo</span>
                     <div className="w-8 h-8 rounded-full bg-[#292524] text-[#FDFCF8] flex items-center justify-center group-hover:bg-[#57534E] transition-colors">
                         <ArrowRight size={14} />

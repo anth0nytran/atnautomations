@@ -568,7 +568,7 @@ const LuxurySoftLayout: React.FC<LayoutProps> = ({ content, onBack, onOpenForm }
               <span className="text-[10px] font-bold uppercase tracking-[0.2em] text-[#57534E]">{content.hero.badge}</span>
            </div>
            
-           <h1 className="text-5xl md:text-6xl lg:text-8xl font-serif text-[#1C1917] leading-[0.95] tracking-tight">
+           <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif text-[#1C1917] leading-[0.95] tracking-tight">
              {content.hero.headline.split('. ')[0]}.<br/>
              <span className="text-stone-400 italic">{content.hero.headline.split('. ')[1]}</span>
            </h1>
@@ -686,11 +686,10 @@ const LuxurySoftLayout: React.FC<LayoutProps> = ({ content, onBack, onOpenForm }
       {/* CTA - Minimalist & Bold */}
       <section className="py-24 lg:py-40 px-6 text-center">
          <div className="max-w-4xl mx-auto">
-            <h2 className="text-5xl lg:text-9xl font-serif text-[#1C1917] mb-12 leading-[0.9] tracking-tight">
+            <h2 className="text-4xl lg:text-7xl font-serif text-[#1C1917] mb-12 leading-[0.95] tracking-tight">
                {content.cta.headline.split(' ').slice(0, 3).join(' ')}<br/>
                <span className="italic text-stone-400">{content.cta.headline.split(' ').slice(3).join(' ')}</span>
             </h2>
-            <div className="h-20 w-[1px] bg-[#1C1917] mx-auto mb-12" />
             <p className="text-lg lg:text-xl text-[#57534E] mb-12 font-light max-w-xl mx-auto">{content.cta.subhead}</p>
             <LuxuryButton primary onClick={onOpenForm}>{content.cta.button}</LuxuryButton>
          </div>
@@ -722,7 +721,7 @@ const SwissGridLayout: React.FC<LayoutProps> = ({ content, onBack, onOpenForm, o
                 <div className="inline-block bg-black text-white px-4 py-2 text-sm font-bold uppercase tracking-widest mb-10 w-fit transform -rotate-1">
                    {content.hero.badge}
                 </div>
-                <h1 className="text-6xl md:text-9xl font-black tracking-tighter mb-10 leading-[0.8] uppercase break-words">
+                <h1 className="text-5xl md:text-7xl font-black tracking-tighter mb-10 leading-[0.9] uppercase break-words">
                    {content.hero.headline}
                 </h1>
                 <p className="text-xl md:text-2xl font-bold leading-tight max-w-xl mb-12 border-l-4 border-emerald-500 pl-6">
@@ -798,7 +797,7 @@ const SwissGridLayout: React.FC<LayoutProps> = ({ content, onBack, onOpenForm, o
 
       {/* CTA */}
       <section className="bg-emerald-500 text-black py-24 md:py-40 px-6 text-center border-t-2 border-black">
-         <h2 className="text-6xl md:text-9xl font-black uppercase mb-12 leading-[0.8] tracking-tighter">{content.cta.headline}</h2>
+         <h2 className="text-5xl md:text-7xl font-black uppercase mb-12 leading-[0.9] tracking-tighter">{content.cta.headline}</h2>
          <p className="text-xl md:text-2xl font-bold max-w-2xl mx-auto mb-16">{content.cta.subhead}</p>
          <SwissButton onClick={onOpenForm}>{content.cta.button}</SwissButton>
       </section>
@@ -835,7 +834,7 @@ const FriendlyAgentLayout: React.FC<LayoutProps> = ({ content, onBack, onOpenFor
                     <Sparkles size={12} />
                     {content.hero.badge}
                 </div>
-                <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-slate-900 mb-6 tracking-tight leading-[1.05]">
+                <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-slate-900 mb-6 tracking-tight leading-[1.05]">
                     {content.hero.headline}
                 </h1>
                 <p className="text-lg text-slate-500 font-medium leading-relaxed max-w-lg mb-10">
@@ -1036,7 +1035,7 @@ const FriendlyAgentLayout: React.FC<LayoutProps> = ({ content, onBack, onOpenFor
                 </div>
                 
                 <div className="relative z-10 max-w-2xl mx-auto">
-                    <h2 className="text-4xl md:text-5xl font-bold text-white mb-6 tracking-tight">{content.cta.headline}</h2>
+                    <h2 className="text-3xl md:text-4xl font-bold text-white mb-6 tracking-tight">{content.cta.headline}</h2>
                     <p className="text-indigo-200 text-lg mb-10">{content.cta.subhead}</p>
                     <button 
                         onClick={onOpenForm}

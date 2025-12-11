@@ -57,36 +57,36 @@ export const generateContent = (prompt: LandingPagePrompt): GeneratedContent => 
       layoutType: 'luxury-soft',
       hero: {
         badge: "Revenue Protection System",
-        headline: "Stop Losing Money to Missed Calls.",
-        subhead: "62% of calls to local businesses go unanswered. Our AI Receptionist answers 24/7, books appointments directly into your calendar, and sounds so human your clients won't know the difference.",
-        primaryCta: "Start Converting Callers",
-        secondaryCta: "Hear It In Action",
+        headline: "Never lose another client to a missed call.",
+        subhead: "Your AI Receptionist answers instantly, sounds human, qualifies every caller, and books straight into your calendar—24/7, without burning out your staff.",
+        primaryCta: "Get a 15-Min Demo",
+        secondaryCta: "Hear a Sample Call",
       },
       socialProof: {
         label: "THE 'ZERO-RISK' PROMISE",
         logos: ["Pays For Itself With 1 Saved Booking", "Try It Risk-Free For 30 Days", "No Contracts. Cancel Anytime."]
       },
       problem: {
-        headline: "Your Front Desk Has a Capacity Limit. We Don't.",
-        subhead: "In the service business, a missed call is a missed paycheck. Callers don't leave voicemails—they call your competitor.",
+        headline: "Every Unanswered Call Is a Customer You Handed to a Competitor.",
+        subhead: "If your phone is ringing and no one picks up within seconds, you’re paying to generate leads you never even speak to.",
         cards: [
-          { icon: "phone-off", title: "The Silent Revenue Killer", desc: "Every time your line rings out or hits voicemail, you lose a potential high-value client to the next business on Google." },
-          { icon: "clock", title: "Leads Don't Wait for 9-5", desc: "40% of booking inquiries happen evenings and weekends. If you aren't answering instantly, you're invisible." },
-          { icon: "user-x", title: "The 'On Hold' Problem", desc: "Forcing new clients to wait on hold destroys trust before they even speak to you. Give them VIP treatment, instantly." }
+          { icon: "phone-off", title: "The Silent Revenue Leak", desc: "People don’t leave voicemails—they tap the next result on Google. Every ring without an answer is lost revenue." },
+          { icon: "clock", title: "Leads Don't Wait for 9-5", desc: "40% of inquiries happen after hours. If you aren't answering instantly, you're invisible." },
+          { icon: "user-x", title: "The 'On Hold' Problem", desc: "Long holds or rushed staff damage trust before a client ever meets you. Give them VIP treatment, instantly." }
         ]
       },
       solution: {
         headline: "The Perfect Employee",
         subhead: "Never sick, never late, always polite. Answering every single call with your best sales script.",
         features: [
-          { icon: "mic", title: "Indistinguishable from Human", desc: "Engineered with natural pauses, breath, and empathy. It handles complex questions without sounding robotic." },
-          { icon: "calendar-check", title: "Books Directly to Calendar", desc: "It navigates your schedule (Jane, Mindbody, Clio, G-Cal) to fill open slots with qualified appointments." },
-          { icon: "shield-check", title: "Filters the Noise", desc: "Politely screens out spam and robocalls so your staff only deals with paying customers." }
+          { icon: "mic", title: "Indistinguishable from Human", desc: "Mirrors your brand tone, handles common questions, and uses natural pauses and empathy—no 'robot voice'." },
+          { icon: "calendar-check", title: "Books Directly to Calendar", desc: "Connects to your scheduling tool so calls become confirmed bookings, reschedules, or waitlist fills in real time." },
+          { icon: "shield-check", title: "Filters the Noise", desc: "Routes VIP or complex calls to your team, blocks spam, and captures clean lead data for follow-up." }
         ]
       },
       leadMagnet: {
         title: "Missed Call Revenue Calculator",
-        subtitle: "Estimate how much cash you're leaving on the table every month.",
+        subtitle: "See how much cash you're leaving on the table every month.",
         type: 'calculator',
         data: {
           inputs: [
@@ -100,19 +100,19 @@ export const generateContent = (prompt: LandingPagePrompt): GeneratedContent => 
       howItWorks: {
         headline: "Live in 24 Hours",
         steps: [
-          { step: "01", title: "Onboarding", desc: "We upload your pricing, FAQs, and scheduling rules." },
-          { step: "02", title: "Forwarding", desc: "You set up simple call forwarding. Zero hardware required." },
-          { step: "03", title: "Profit", desc: "Watch your calendar fill up automatically." }
+          { step: "01", title: "We Learn", desc: "You share pricing, FAQs, and booking rules. We mirror your best receptionist." },
+          { step: "02", title: "We Wire", desc: "We connect to your phone system and calendar. No new hardware required." },
+          { step: "03", title: "We Launch", desc: "Watch your calendar fill up automatically while you sleep." }
         ]
       },
       cta: {
-        headline: "Your Phone Should Be Making Money.",
-        subhead: "Join the businesses offering true 24/7 service. No contracts, straightforward ROI.",
-        button: "Get Your AI Receptionist"
+        headline: "Turn Your Phone Into a 24/7 Booking Machine.",
+        subhead: "If one saved booking pays for the system, every call after that is pure upside.",
+        button: "Schedule My Demo"
       },
       seo: {
-        title: "AI Receptionist | 24/7 Automated Answering Service for Local Business",
-        description: "Stop losing missed calls. Our AI Receptionist answers 24/7, qualifies leads, and books appointments directly to your calendar. Indistinguishable from human."
+        title: "AI Receptionist for Local Business | 24/7 Automated Answering",
+        description: "Stop losing revenue to missed calls. Our AI Receptionist answers 24/7, sounds human, qualifies callers, and books directly into your calendar."
       }
     };
   }
@@ -123,10 +123,10 @@ export const generateContent = (prompt: LandingPagePrompt): GeneratedContent => 
       layoutType: 'swiss-grid',
       hero: {
         badge: "Revenue-First Design",
-        headline: "We Build Sales Engines, Not Just Websites.",
-        subhead: "Most websites are pretty brochures that cost you money. We build 24/7 sales systems that capture leads, automate follow-up, and actually print revenue.",
+        headline: "Your Website Should Be a Salesperson, Not a Brochure.",
+        subhead: "We rebuild your site into a fast, conversion-first sales engine wired to capture leads, follow up instantly, and show you exactly what’s working.",
         primaryCta: "Claim Free Audit",
-        secondaryCta: "See Our Results",
+        secondaryCta: "See Live Systems",
       },
       socialProof: {
         label: "EXCLUSIVE FOUNDER OFFER",
@@ -168,19 +168,19 @@ export const generateContent = (prompt: LandingPagePrompt): GeneratedContent => 
       howItWorks: {
         headline: "The Upgrade",
         steps: [
-          { step: "01", title: "Audit", desc: "We identify where you're losing money." },
-          { step: "02", title: "Build", desc: "We deploy the high-conversion framework." },
-          { step: "03", title: "Scale", desc: "We turn on the automation pipes." }
+          { step: "01", title: "Audit", desc: "We review your current site, funnels, and numbers." },
+          { step: "02", title: "Rebuild", desc: "We redesign the site and wire in the lead engine." },
+          { step: "03", title: "Optimize", desc: "We track performance and iterate on copy, CTAs, and offers." }
         ]
       },
       cta: {
-        headline: "Turn Your Website Into an Asset.",
-        subhead: "If your website isn't bringing you new business every week, it's broken. Let us fix it.",
-        button: "Audit My Website"
+        headline: "If Your Website Isn't Bringing Qualified Leads, It's Broken.",
+        subhead: "Let’s run a blunt, numbers-first audit and map exactly what to fix.",
+        button: "Book Conversion Audit"
       },
       seo: {
-        title: "High-Conversion Web Design & Lead Automation Systems",
-        description: "Transform your website into a 24/7 sales machine. We build high-performance sites integrated with automated lead capture and follow-up systems."
+        title: "Conversion-Focused Websites & Lead Gen Systems | ATN Automations",
+        description: "Turn your website into a 24/7 sales engine. We design high-converting websites with built-in lead capture, instant follow-up, and clear ROI tracking."
       }
     };
   }
@@ -190,31 +190,31 @@ export const generateContent = (prompt: LandingPagePrompt): GeneratedContent => 
     layoutType: 'friendly-agent',
     hero: {
       badge: "Business Autopilot",
-      headline: "Run Your Business. Don't Let It Run You.",
-      subhead: "Delegate repetitive admin, data entry, and research to intelligent AI workers. They work 24/7, cost $0/hour, and never complain.",
-      primaryCta: "Hire Your AI Staff",
-      secondaryCta: "See The Magic",
+      headline: "Buy Back Your Time with AI Staff That Never Sleep.",
+      subhead: "We deploy AI agents that handle email, data entry, research, and follow-up so you can focus on decisions and growth—not busywork.",
+      primaryCta: "Map Opportunities",
+      secondaryCta: "See Workflows",
     },
     socialProof: {
       label: "THE EFFICIENCY GUARANTEE",
       logos: ["Save 20+ Hours/Month Guaranteed", "Full Setup Included ($997 Value)", "60-Day Money-Back Protection"]
     },
     problem: {
-      headline: "You Didn't Start a Business to Do Paperwork.",
-      subhead: "Your time is worth $500/hr. Why are you spending it on $15/hr tasks?",
+      headline: "You Became Your Own Bottleneck.",
+      subhead: "Your calendar is full, but your brain is stuck in admin. You don't need to work harder—you need digital workers.",
       cards: [
-        { icon: "layers", title: "Email Overload", desc: "Waking up to 50 unread messages and spending your best energy just clearing the deck." },
+        { icon: "layers", title: "Email Overload", desc: "Waking up to 50 unread messages and losing your best thinking hours just clearing the deck." },
         { icon: "file-text", title: "Data Drudgery", desc: "Copy-pasting info from spreadsheets to CRMs. It's boring, prone to error, and a waste of life." },
         { icon: "alert-triangle", title: "The Follow-Up Fail", desc: "Leads dying on the vine because you simply forgot to send that second or third email." }
       ]
     },
     solution: {
       headline: "Your New Digital Workforce",
-      subhead: "Invisible employees that handle the boring stuff so you can focus on growth.",
+      subhead: "Give each boring task to an agent that loves doing it.",
       features: [
-        { icon: "cpu", title: "The Inbox Manager", desc: "Drafts replies, sorts priority emails, and handles scheduling negotiation automatically." },
-        { icon: "git-commit", title: "The Data Bridge", desc: "Instantly syncs data between your apps (e.g. Typeform → Slack → HubSpot). No more manual entry." },
-        { icon: "lock", title: "The Researcher", desc: "Scours the web for competitor info, leads, or news and delivers a summarized report every morning." }
+        { icon: "cpu", title: "The Inbox Manager", desc: "Drafts replies, tags priority messages, and schedules calls. You approve or edit in seconds." },
+        { icon: "git-commit", title: "The Data Bridge", desc: "Moves info between forms, sheets, and CRMs without typos or delays. No more manual entry." },
+        { icon: "lock", title: "The Researcher", desc: "Gathers leads, competitor intel, or market signals into clear, snackable summaries every morning." }
       ]
     },
     leadMagnet: {
@@ -230,23 +230,23 @@ export const generateContent = (prompt: LandingPagePrompt): GeneratedContent => 
         resultLabel: "Potential Hours Saved / Month"
       },
       footer: "Want us to map this for your business? Book a 15-min demo."
-    },
+      },
     howItWorks: {
       headline: "Simple Setup",
       steps: [
-        { step: "01", title: "Identify", desc: "Tell us what task you hate the most." },
-        { step: "02", title: "Deploy", desc: "We plug the AI agent into your existing tools." },
+        { step: "01", title: "Identify", desc: "We identify the 1–3 tasks stealing the most time." },
+        { step: "02", title: "Deploy", desc: "We launch your agents, watch how they perform, and refine." },
         { step: "03", title: "Freedom", desc: "You get your evenings back." }
       ]
     },
     cta: {
-      headline: "Ready to clone yourself?",
-      subhead: "Scale your output without increasing your payroll. It's not science fiction, it's competitive advantage.",
-      button: "Start Automating Now"
+      headline: "Ready to Clone Your Best Self into Software?",
+      subhead: "Start with one agent, one painful workflow, and a simple goal: free up your next 10 hours.",
+      button: "Hire My First Agent"
     },
     seo: {
       title: "AI Agents for Business | Automate Admin, Data & Research",
-      description: "Hire digital workers to handle repetitive tasks. Our AI agents manage emails, data entry, and research 24/7. Scale your business without adding headcount."
+      description: "Deploy AI agents that handle email, data entry, research, and follow-up. ATN Automations designs custom AI workflows with human-in-the-loop control."
     }
   };
 };
