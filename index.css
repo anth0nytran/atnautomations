@@ -1,0 +1,15 @@
+/* Global styles - Extended by Tailwind in index.html */
+/* This file is intentionally minimal as Tailwind handles most styling */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+

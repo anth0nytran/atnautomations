@@ -1,0 +1,23 @@
+# Don't upload these to Vercel
+node_modules
+.git
+.vscode
+.idea
+*.log
+*.local
+.env
+.env.local
+dist-ssr
+
+# Documentation and development files
+README.md
+.gitignore
+tsconfig.json
+
+# Test files (if added later)
+*.test.ts
+*.test.tsx
+*.spec.ts
+*.spec.tsx
+__tests__
+
